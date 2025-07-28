@@ -1051,11 +1051,6 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/toolbarButton-openFile.png);
 }
 
-.toolbarButton.download::before,
-.secondaryToolbarButton.download::before {
-  content: url(images/toolbarButton-download.png);
-}
-
 .toolbarButton.bookmark,
 .secondaryToolbarButton.bookmark {
   -webkit-box-sizing: border-box;
