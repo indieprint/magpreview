@@ -63,7 +63,9 @@
 .pdfViewer .canvasWrapper {
   overflow: hidden;
 }
-
+html.loading #toolbarContainer {
+  display: none !important;
+}
 .pdfViewer .page {
   direction: ltr;
   width: 816px;
