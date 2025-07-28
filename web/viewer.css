@@ -23,9 +23,7 @@
   bottom: 0;
   overflow: hidden;
 }
-html.loading #toolbarContainer {
-  display: none !important;
-}
+
 .textLayer > div {
   color: transparent;
   position: absolute;
