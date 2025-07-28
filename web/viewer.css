@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 <style>
-  #toolbarContainer {
+  html.loading #toolbarContainer {
     display: none !important;
   }
 </style>
