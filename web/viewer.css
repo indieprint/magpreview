@@ -12,11 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-<style>
-  html.loading #toolbarContainer {
-    display: none !important;
-  }
-</style>
  .page-wrapper {
   border-left: 1px solid #e4e4e4;
 }
@@ -1054,6 +1049,11 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
 .toolbarButton.openFile::before,
 .secondaryToolbarButton.openFile::before {
   content: url(images/toolbarButton-openFile.png);
+}
+
+.toolbarButton.download::before,
+.secondaryToolbarButton.download::before {
+  content: url(images/toolbarButton-download.png);
 }
 
 .toolbarButton.bookmark,
